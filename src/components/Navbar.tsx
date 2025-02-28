@@ -12,7 +12,7 @@ import { useAtom } from "jotai";
 
 type Props = { location?: string };
 
-// const API_KEY = process.env.NEXT_PUBLIC_WEATHER_KEY;
+
 
 export default function Navbar({ location }: Props) {
   const [city, setCity] = useState("");
